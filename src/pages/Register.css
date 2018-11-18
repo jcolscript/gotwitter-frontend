@@ -1,0 +1,72 @@
+.register-wrapper {
+    height: 100%;
+  
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .register-wrapper form {
+    margin: 20px 0 0;
+    width: 100%;
+    max-width: 280px;
+  
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+  }
+  
+  .register-wrapper form input {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    height: 44px;
+    padding: 0 15px;
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+
+  .register-wrapper form input:focus{
+    border: 1px solid rgba(107, 174, 242, 0.7);
+  }
+  
+  .register-wrapper form button {
+    margin: 10px 0 0;
+    background: #4bb0ee;
+    border-radius: 5px;
+    height: 44px;
+    border: 0;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .register-wrapper form button:hover {
+    background: #42a1db;
+  }
+  
+  .register-wrapper .subscribe {
+    margin: 10px 0 0;
+    background: #fff;
+    border-radius: 5px;
+    height: 44px;
+    border: 2px solid #4bb0ee;
+    color: #4bb0ee;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .register-wrapper .subscribe:hover {
+    background: #eaf5fd;
+  }
+  
+  .register-wrapper .subspan {
+    text-decoration: none;
+    margin-top: 7px;
+    color: #4bb0ee;
+    cursor: pointer;
+    font-size: 13px
+  }
